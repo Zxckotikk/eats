@@ -1,0 +1,46 @@
+.order {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-image: url(../images/orderBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.order-title {
+    margin-bottom: 12px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.order-text {
+    margin-bottom: 60px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.order-btns {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.order-btns .btn {
+    min-width: 80px;
+    border-radius: 10px;
+}

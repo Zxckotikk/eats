@@ -1,0 +1,30 @@
+.header {
+    padding-top: 44px;
+    padding-bottom: 44px;
+
+&__nav {
+    display: flex;
+    align-items: center;
+}
+
+&__logo {
+    margin-right: auto;
+}
+
+&__list {
+    display: flex;
+    gap: 94px;
+    list-style-type: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+&__link {
+    color: #FA4A0C;
+}
+
+}
