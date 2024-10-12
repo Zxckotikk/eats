@@ -30,4 +30,8 @@
   height: 100vh;
   background-color: whitesmoke;
   padding: 32px;
+  transform: translateX(100%);
+}
+.menu-container.is_open{
+    transform: translateX(0%);
 }
